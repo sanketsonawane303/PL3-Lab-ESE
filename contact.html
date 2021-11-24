@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="sanket sonawane" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <script
+      src="https://kit.fontawesome.com/f05c28147a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+    <title>Contact</title>
+    <style>
+      .banner {
+        background-image: url(images/library-bg.jpeg);
+        background-position: 50% 70%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="container-fluid">
+        <div class="row center-xs middle-xs">
+          <div class="col-xs-12 col-md-1">
+            <div class="box">
+              <div id="logo"><b>AGCL</b></div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-offset-7 col-md-4 nav">
+            <div class="row center-xs middle-xs">
+              <div class="col-xs-12 col-md-3">
+                <div class="box">
+                  <a href="index.html">HOME</a>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-3">
+                <div class="box">
+                  <a href="about.html">ABOUT</a>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-3">
+                <div class="box">
+                  <a href="contact.html" class="active">REGISTER</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="banner">
+      <div class="banner-text">Contact Us</div>
+    </div>
+    <div class="main">
+      <div class="feedback padding-bottom">
+        <div class="container-fluid">
+          <div class="row center-xs middle-xs">
+            <div class="col-xs-12">
+              <div class="box">
+                <h1>Registration Form</h1>
+              </div>
+            </div>
+          </div>
+          <form method="POST" autocomplete="off">
+            <div class="row center-xs middle-xs padding-bottom">
+              <div class="col-xs-12 col-md-3">
+                <div class="box form">
+                  <input
+                    type="text"
+                    name="fullname"
+                    id="fullname"
+                    placeholder="Fullname *"
+                  />
+                  <div class="bar"></div>
+                  <div class="error" id="fullname-error"></div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-offset-1 col-md-3">
+                <div class="box form">
+                  <input
+                    type="tel"
+                    name="phone-no"
+                    id="phone-no"
+                    placeholder="Phone no. (10 digit) *"
+                    pattern="[0-9]{10}"
+                  />
+                  <div class="bar"></div>
+                  <div class="error" id="phone-no-error"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row center-xs middle-xs padding-bottom">
+              <div class="col-xs-12 col-md-3">
+                <div class="box form">
+                  <input
+                    type="text"
+                    name="id-proof"
+                    id="id-proof"
+                    placeholder="ID Proof *"
+                  />
+                  <div class="bar"></div>
+                  <div class="error" id="id-proof-error"></div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-offset-1 col-md-3">
+                <div class="box form">
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Email ID *"
+                  />
+                  <div class="bar"></div>
+                  <div class="error" id="email-error"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row center-xs middle-xs padding-bottom">
+              <div class="col-xs-12 col-md-3">
+                <div class="box form">
+                  <input
+                    type="text"
+                    name="username"
+                    id="username"
+                    placeholder="Username *"
+                  />
+                  <div class="bar"></div>
+                  <div class="error" id="username-error"></div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-offset-1 col-md-3">
+                <div class="box form">
+                  <input
+                    type="password"
+                    name="password"
+                    id="password"
+                    placeholder="Password *"
+                  />
+                  <div class="bar"></div>
+                  <div class="error" id="password-error"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row center-xs middle-xs padding-bottom">
+              <div class="col-xs-12 col-md-7">
+                <div class="box form">
+                  <textarea
+                    name="address"
+                    id="address"
+                    rows="5"
+                    placeholder="Address *"
+                  ></textarea>
+                  <div class="error" id="password-error"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row center-xs middle-xs">
+              <div class="col-xs-4 col-md-2">
+                <div class="box">
+                  <button
+                    class="submit"
+                    value="Submit"
+                    onclick="validateForm(event)"
+                  >
+                    Submit
+                  </button>
+                  <div class="error" id="submit-error"></div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="padding-bottom"></div>
+      <div class="footer">
+        <div class="container-fluid">
+          <div class="row center-xs middle-xs">
+            <div class="col-xs-12">
+              <div class="box">
+                <p>Copyright &copy; 2021 Sanket Sonawane</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
